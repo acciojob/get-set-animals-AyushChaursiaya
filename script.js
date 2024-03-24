@@ -82,9 +82,9 @@ class Dog extends Animal {
 
 // Example usage
 const myCat = new Cat("Siamese");
-myCat.makeSound("meow"); // Output: The Siamese makes a meow
+myCat.makeSound(); // Output: The Siamese makes a meow
 myCat.purr(); // Output: The Siamese makes a purr
 
 const myDog = new Dog("Golden Retriever");
-myDog.makeSound("bark"); // Output: The Golden Retriever makes a bark
+myDog.makeSound(); // Output: The Golden Retriever makes a bark
 myDog.bark(); // Output: The Golden Retriever makes a woof
